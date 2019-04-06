@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{DFCDCEE1-7752-4FC8-BE57-B9DCF77A17F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockWorld", "BlockWorld\BlockWorld.csproj", "{F1197D63-38F4-4E17-B344-377A0B795ADD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB} = {21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTKUtilities", "..\Worlds\OOPWrapper\OTKUtilities.csproj", "{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +16,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFCDCEE1-7752-4FC8-BE57-B9DCF77A17F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFCDCEE1-7752-4FC8-BE57-B9DCF77A17F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFCDCEE1-7752-4FC8-BE57-B9DCF77A17F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFCDCEE1-7752-4FC8-BE57-B9DCF77A17F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1197D63-38F4-4E17-B344-377A0B795ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1197D63-38F4-4E17-B344-377A0B795ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1197D63-38F4-4E17-B344-377A0B795ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1197D63-38F4-4E17-B344-377A0B795ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B4BA73-CB22-4F6D-9B6C-7D79DA6EF8AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -109,12 +109,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OOPWrapper\OTKUtilities.csproj">
-      <Project>{21b4ba73-cb22-4f6d-9b6c-7d79da6ef8ab}</Project>
-      <Name>OTKUtilities</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="assets\dirt.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -127,6 +121,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="render\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Worlds\OOPWrapper\OTKUtilities.csproj">
+      <Project>{21b4ba73-cb22-4f6d-9b6c-7d79da6ef8ab}</Project>
+      <Name>OTKUtilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
